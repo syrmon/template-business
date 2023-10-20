@@ -1,0 +1,51 @@
+.servicesSection {
+  padding: 85px 15px;
+}
+.blueLine {
+  width: 54px;
+  height: 3px;
+  background-color: var(--second-color);
+}
+.servicesSection > .title {
+  font-size: 30px;
+  line-height: 40px;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.description {
+  padding-top: 30px;
+  padding-bottom: 58px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #383838;
+}
+
+.logoContainer {
+  background-color: var(--third-color);
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.whyUs {
+  display: flex;
+}
+
+.logoSide {
+  margin-right: 20px;
+}
+
+.infoSide .title {
+  font-size: 22px;
+  font-weight: 700;
+}

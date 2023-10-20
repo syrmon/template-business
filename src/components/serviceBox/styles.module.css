@@ -1,0 +1,55 @@
+.container {
+  background-color: black;
+  color: white;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+  height: 465px;
+  position: relative;
+}
+
+.icon {
+  height: 61px;
+  width: 60px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.description {
+  line-height: 25px;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+
+.subServiceContainer {
+  display: flex;
+  margin-bottom: 6px;
+  line-height: 26px;
+  align-items: center;
+}
+
+.arrow {
+  color: var(--third-color);
+  height: 20px;
+}
+
+.subService {
+  font-size: 14px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.linkOpenBtn {
+  border-radius: 100%;
+  background-color: #535353;
+  padding: 5px;
+  font-size: 12px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}

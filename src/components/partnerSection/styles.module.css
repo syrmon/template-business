@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+  filter: contrast(15%);;
+}

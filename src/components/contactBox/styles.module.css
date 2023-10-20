@@ -1,0 +1,40 @@
+.container {
+  height: 360px;
+  width: 290px;
+  border-left: 12px solid var(--third-color);
+  position: absolute;
+  top: 17.5%;
+  left: 3%;
+  background-color: white;
+  padding: 40px 20px;
+}
+
+.branch {
+  font-size: 16px;
+  color: var(--text-color);
+}
+.title {
+  font-size: 28px;
+  color: var(--text-color);
+  margin: 20px 0px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 14px;
+  color: #727272;
+  font-weight: 600;
+  line-height: 25px;
+  width: 200px;
+}
+
+.contactButton {
+  border-radius: 10px;
+  background-color: var(--second-color);
+  padding: 15px 30px;
+  width: 140px;
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+  font-weight: 600;
+}
