@@ -3,6 +3,10 @@ import PartnerSection from "../../components/partnerSection/PartnerSection";
 import ServiceBox from "../../components/serviceBox/ServiceBox";
 import styles from "./styles.module.css";
 import { BiSolidCheckShield } from "react-icons/bi";
+import { GiReceiveMoney } from "react-icons/gi";
+import sectionImg from "../../assets/discuss.png";
+import WhyUs from "../../components/whyUs/WhyUs";
+import SetupWork from "../../components/setupWork/SetupWork";
 
 const Home = () => {
   const services = [
@@ -56,6 +60,7 @@ const Home = () => {
         {services &&
           services.map((service) => (
             <ServiceBox
+              key={service.title}
               title={service.title}
               description={service.description}
               subServices={service.subServices}
@@ -93,7 +98,23 @@ const Home = () => {
             </p>
           </div>
         </div>
+        <div className={styles.whyUs}>
+          <div className={styles.logoSide}>
+            <GiReceiveMoney className={styles.moneyLogo} />
+          </div>
+          <div className={styles.infoSide}>
+            <h4 className={styles.title}>100% Money Back Guarantee</h4>
+            <p className={styles.description}>
+              Money-back guarantee is known as satisfaction guarantee,if a buyer
+              is not satisfied with any product or service, a refund will be
+              made.
+            </p>
+          </div>
+        </div>
+        <img src={sectionImg} alt="" className={styles.sectionImg} />
       </div>
+      <WhyUs />
+      <SetupWork />
     </div>
   );
 };

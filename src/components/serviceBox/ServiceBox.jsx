@@ -23,7 +23,7 @@ const ServiceBox = ({ title, description, subServices, iconName }) => {
       <p className={styles.description}>{description}</p>
       {subServices.map((c) => {
         return (
-          <div className={styles.subServiceContainer}>
+          <div key={c} className={styles.subServiceContainer}>
             <AiOutlineArrowRight className={styles.arrow} />
             <p className={styles.subService}>{c}</p>
           </div>

@@ -1,6 +1,7 @@
 .servicesSection {
   padding: 85px 15px;
 }
+
 .blueLine {
   width: 54px;
   height: 3px;
@@ -13,7 +14,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.description {
+.servicesSection .description {
   padding-top: 30px;
   padding-bottom: 58px;
   font-size: 18px;
@@ -37,6 +38,12 @@
   height: 40px;
 }
 
+.moneyLogo {
+  color: var(--third-color);
+  width: 50px;
+  height: 50px;
+}
+
 .whyUs {
   display: flex;
 }
@@ -48,4 +55,14 @@
 .infoSide .title {
   font-size: 22px;
   font-weight: 700;
+  padding-top: 15px;
+}
+
+.infoSide .description {
+  font-size: 16px;
+}
+
+.sectionImg {
+  width: 100%;
+  margin-bottom: 30px;
 }
