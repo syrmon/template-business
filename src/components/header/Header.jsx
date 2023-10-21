@@ -3,8 +3,10 @@ import styles from "./styles.module.css";
 
 const Header = () => {
   return (
-    <div className={styles.container}>
-      <ContactBox />
+    <div className={styles.background}>
+      <div className={`${styles.container} max-width`}>
+        <ContactBox />
+      </div>
     </div>
   );
 };

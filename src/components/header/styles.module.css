@@ -1,6 +1,9 @@
 .container {
   height: 553px;
-  background-color: black;
   width: 100%;
   position: relative;
+}
+
+.background {
+  background-color: black;
 }

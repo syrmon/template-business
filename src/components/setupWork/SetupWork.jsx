@@ -5,7 +5,7 @@ import { MdPayments } from "react-icons/md";
 
 const SetupWork = () => {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} max-width`}>
       <div>
         <div className={styles.blueLine}></div>
         <h4 className={styles.title}>

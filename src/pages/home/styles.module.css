@@ -59,10 +59,12 @@
   font-size: 22px;
   font-weight: 700;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .infoSide .description {
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 .sectionImg {
@@ -70,8 +72,12 @@
   margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 1000px) {
+.infoHeader{
+  margin-bottom: 50px;
 
+}
+
+@media only screen and (min-width: 1000px) {
   .servicesSection,
   .aboutSection {
     padding: 85px 45px;
@@ -80,14 +86,16 @@
     display: flex;
   }
 
-  .serviceHeader{
+  .serviceHeader {
     display: flex;
   }
 
-  .serviceContainer{
+  .serviceContainer {
     display: flex;
     justify-content: space-between;
   }
 
-
+  .infoHeader {
+    margin-right: 50px;
+  }
 }

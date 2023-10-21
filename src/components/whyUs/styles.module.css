@@ -1,5 +1,8 @@
-.aboutUs {
+.background {
   background-color: black;
+}
+
+.aboutUs {
   color: white;
   padding: 70px 15px;
 }
@@ -56,7 +59,4 @@
   .infoBoxContainer {
     width: 100%;
   }
-
-
-
 }

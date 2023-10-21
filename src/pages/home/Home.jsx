@@ -45,7 +45,7 @@ const Home = () => {
     <div>
       <Header />
 
-      <div className={styles.servicesSection}>
+      <div className={`${styles.servicesSection} max-width`}>
         <div className={styles.serviceHeader}>
           <div className={styles.blueLine}></div>
           <h4 className={styles.title}>
@@ -74,7 +74,7 @@ const Home = () => {
 
       <PartnerSection />
 
-      <div className={styles.aboutSection}>
+      <div className={`${styles.aboutSection} max-width`}>
         <div className={styles.infoHeader}>
           <div className={styles.blueLine}></div>
           <h4 className={styles.title}>
