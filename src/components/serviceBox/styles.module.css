@@ -55,7 +55,16 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  .container{
+  .container {
     width: 31%;
+  }
+
+  .container:hover {
+    scale: 1.1;
+    cursor: pointer;
+  }
+
+  .linkOpenBtn:hover {
+    background-color: var(--third-color);
   }
 }

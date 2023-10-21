@@ -4,8 +4,11 @@ import AppDevImg from "../../assets/app-development.png";
 import DigiMarkImg from "../../assets/digital-marketing.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlinePlus } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
-const ServiceBox = ({ title, description, subServices, iconName }) => {
+const ServiceBox = ({ title, description, subServices, iconName, link }) => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.container}>
       <img
@@ -29,7 +32,10 @@ const ServiceBox = ({ title, description, subServices, iconName }) => {
           </div>
         );
       })}
-      <AiOutlinePlus className={styles.linkOpenBtn} />
+      <AiOutlinePlus
+        className={styles.linkOpenBtn}
+        onClick={() => navigate(link)}
+      />
     </div>
   );
 };

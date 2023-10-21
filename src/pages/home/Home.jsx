@@ -7,43 +7,19 @@ import { GiReceiveMoney } from "react-icons/gi";
 import sectionImg from "../../assets/discuss.png";
 import WhyUs from "../../components/whyUs/WhyUs";
 import SetupWork from "../../components/setupWork/SetupWork";
+import { services } from "../../data/homePageText";
 
 const Home = () => {
-  const services = [
-    {
-      title: "Website Design",
-      description:
-        "We specialise in web designing and development. Whether you need to create a new website or update the existing.",
-      subServices: ["UI/UX Design", "Web Development", "Web Content writing"],
-      iconName: "Design",
-    },
-    {
-      title: "Apps Development",
-      description:
-        "Star It is ready to go the extra mile to ensure that you requirement is fulfilled. From eCommerce to education.",
-      subServices: [
-        "Android Development",
-        "IOS Development",
-        "Software Development",
-      ],
-      iconName: "AppDev",
-    },
-    {
-      title: "Digital Marketing",
-      description:
-        "Generate your sales opportunity with digital marketing services from Star IT. Our strategic solutions.",
-      subServices: [
-        "SEO Services",
-        "Link Building Services",
-        "Page Optimization",
-      ],
-      iconName: "DigiMark",
-    },
-  ];
+  const headerText = {
+    branch: "COACHING & CONSULTING",
+    title: "Best thing for market funding.",
+    description:
+      "We Provide High Performance Networking Solutions for your IT business.",
+  };
 
   return (
     <div>
-      <Header />
+      <Header text={headerText} />
 
       <div className={`${styles.servicesSection} max-width`}>
         <div className={styles.serviceHeader}>
@@ -67,6 +43,7 @@ const Home = () => {
                 description={service.description}
                 subServices={service.subServices}
                 iconName={service.iconName}
+                link={service.link}
               />
             ))}
         </div>

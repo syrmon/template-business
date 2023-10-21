@@ -62,5 +62,6 @@
   .contactButton {
     font-size: 18px;
     width: 150px;
+    cursor: pointer;
   }
 }
