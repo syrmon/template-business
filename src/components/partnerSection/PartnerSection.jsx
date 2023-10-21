@@ -12,6 +12,16 @@ const PartnerSection = () => {
       />
       <img
         className={styles.logo}
+        src={partnerOneImg}
+        alt="Partner Firm Logo"
+      />
+      <img
+        className={styles.logo}
+        src={partnerTwoImg}
+        alt="Partner Firm Logo"
+      />
+      <img
+        className={styles.logo}
         src={partnerTwoImg}
         alt="Partner Firm Logo"
       />

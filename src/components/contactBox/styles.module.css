@@ -38,3 +38,29 @@
   margin-top: 30px;
   font-weight: 600;
 }
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 660px;
+    height: 360px;
+  }
+
+  .title {
+    font-size: 65px;
+    margin: 15px 0px;
+    line-height: 65px;
+  }
+
+  .description {
+    font-size: 19px;
+    color: #727272;
+    font-weight: 600;
+    line-height: 25px;
+    width: 400px;
+  }
+
+  .contactButton {
+    font-size: 18px;
+    width: 150px;
+  }
+}

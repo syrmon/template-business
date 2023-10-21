@@ -47,3 +47,16 @@
 .doneWork {
   text-align: center;
 }
+
+@media only screen and (min-width: 1000px) {
+  .aboutUs {
+    display: flex;
+  }
+
+  .infoBoxContainer {
+    width: 100%;
+  }
+
+
+
+}

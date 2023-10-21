@@ -1,4 +1,5 @@
-.servicesSection {
+.servicesSection,
+.aboutSection {
   padding: 85px 15px;
 }
 
@@ -7,14 +8,16 @@
   height: 3px;
   background-color: var(--second-color);
 }
-.servicesSection > .title {
+.serviceHeader > .title,
+.infoHeader > .title {
   font-size: 30px;
   line-height: 40px;
   padding-top: 15px;
   font-family: "Poppins", sans-serif;
 }
 
-.servicesSection .description {
+.serviceHeader .description,
+.infoHeader > .description {
   padding-top: 30px;
   padding-bottom: 58px;
   font-size: 18px;
@@ -65,4 +68,26 @@
 .sectionImg {
   width: 100%;
   margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .servicesSection,
+  .aboutSection {
+    padding: 85px 45px;
+  }
+  .aboutSection {
+    display: flex;
+  }
+
+  .serviceHeader{
+    display: flex;
+  }
+
+  .serviceContainer{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
 }
