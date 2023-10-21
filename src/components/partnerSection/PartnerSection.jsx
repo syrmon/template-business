@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import partnerOneImg from "../assets/partnerSlack.png";
-import partnerTwoImg from "../assets/partnerAudioJungle.png";
+import partnerOneImg from "../../assets/partnerSlack.png";
+import partnerTwoImg from "../../assets/partnerAudioJungle.png";
 
 const PartnerSection = () => {
   return (

@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
-import DesignImg from "../assets/design.png";
-import AppDevImg from "../assets/app-development.png";
-import DigiMarkImg from "../assets/digital-marketing.png";
+import DesignImg from "../../assets/design.png";
+import AppDevImg from "../../assets/app-development.png";
+import DigiMarkImg from "../../assets/digital-marketing.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { AiOutlinePlus } from "react-icons/ai";
 

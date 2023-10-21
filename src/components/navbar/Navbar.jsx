@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import logoImg from "../assets/logo.png";
+import logoImg from "../../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   return (
