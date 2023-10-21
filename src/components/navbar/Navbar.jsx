@@ -2,8 +2,16 @@ import styles from "./styles.module.css";
 import logoImg from "../../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import HamburgerMenu from "../hamburgerMenu/HamburgerMenu";
 const Navbar = () => {
   const navigate = useNavigate();
+
+  const [status, setStatus] = useState(false);
+
+  const statusUpdater = (value) => {
+    setStatus(value);
+  };
 
   return (
     <div className={`${styles.container} max-width`}>
@@ -54,8 +62,15 @@ const Navbar = () => {
       </div>
 
       <div className={styles.hamburgerMenuContainer}>
-        <GiHamburgerMenu className={styles.hamburgerMenu} />
+        <GiHamburgerMenu
+          className={styles.hamburgerMenu}
+          onClick={() => {
+            statusUpdater(true);
+          }}
+        />
       </div>
+
+      {status && <HamburgerMenu updater={statusUpdater} />}
     </div>
   );
 };
