@@ -27,17 +27,16 @@
   }
   .link {
     padding: 10px;
-    border: 1px solid var(--third-color);
-    border-radius: 15px;
+    border-bottom: 1px solid var(--third-color);
     font-weight: 600;
+    border-radius: 15px;
     font-size: 14px;
   }
   .link:hover {
-    background-color: var(--second-color);
+    color: var(--second-color);
     cursor: pointer;
     scale: 1.1;
-    color: white;
-    border-color: white;
+    border-color: var(--second-color);
   }
   .hamburgerMenu {
     display: none;
@@ -49,8 +48,8 @@
     border-radius: 15px;
     font-weight: 600;
     font-size: 14px;
-    background-color: #232323;
-    color: white;
+   border-bottom-color: #232323;
+    color: #232323;
     opacity: 0.7;
   }
 }
