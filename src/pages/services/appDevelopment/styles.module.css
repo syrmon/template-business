@@ -1,0 +1,50 @@
+.servicesSection {
+  padding: 85px 15px;
+}
+.blueLine {
+  width: 54px;
+  height: 3px;
+  background-color: var(--second-color);
+}
+
+.serviceHeader > .title {
+  font-size: 30px;
+  line-height: 40px;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.description {
+  padding-top: 30px;
+  padding-bottom: 58px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #383838;
+}
+
+.developImg {
+  width: 320px;
+}
+
+.developImgContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.serviceCard {
+  width: 100%;
+  padding: 25px 70px;
+  border-radius: 10px;
+  background-color: #0e0e0e;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+
+}

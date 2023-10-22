@@ -7,6 +7,7 @@ import AboutUs from "./pages/aboutUs/AboutUs";
 import WebDesign from "./pages/services/webDesign/WebDesign";
 import AppDevelopment from "./pages/services/appDevelopment/AppDevelopment";
 import DigitalMarketing from "./pages/services/digitalMarketing/DigitalMarketing";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/app-development" element={<AppDevelopment />} />
           <Route path="/digital-marketing" element={<DigitalMarketing />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
