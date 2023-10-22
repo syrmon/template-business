@@ -32,51 +32,51 @@ const ContactPanel = (props) => {
 
         <form action="">
           <div className={styles.infoContainer}>
-            <TextField
-              id="standard-basic"
-              label="Standard"
-              variant="standard"
-            />
+            <TextField id="standard-basic" label="Name" variant="standard" />
           </div>
           <div className={styles.infoContainer}>
             <TextField
               id="standard-basic"
-              label="Standard"
+              label="Email"
               variant="standard"
+              className={styles.emailInput}
             />
             <TextField
               id="standard-basic"
-              label="Standard"
+              label="Contact Number"
               variant="standard"
             />
           </div>
           <div className={styles.inputContainer}>
-            <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+            <FormControl
+              variant="standard"
+              sx={{ m: 1, minWidth: 120 }}
+              className={styles.selectInput}
+            >
               <InputLabel id="demo-simple-select-standard-label">
-                Age
+                Services
               </InputLabel>
               <Select
                 labelId="demo-simple-select-standard-label"
                 id="demo-simple-select-standard"
                 value={age}
                 onChange={handleChange}
-                label="Age"
+                label="Services"
               >
                 <MenuItem value="">
                   <em>None</em>
                 </MenuItem>
-                <MenuItem value={10}>Ten</MenuItem>
-                <MenuItem value={20}>Twenty</MenuItem>
-                <MenuItem value={30}>Thirty</MenuItem>
+                <MenuItem value={10}>App Development</MenuItem>
+                <MenuItem value={20}>Website Design</MenuItem>
+                <MenuItem value={30}>Digital Marketing</MenuItem>
               </Select>
             </FormControl>
 
             <TextField
               id="standard-multiline-static"
-              label="Multiline"
+              label="Description"
               multiline
               rows={4}
-              defaultValue="Default Value"
               variant="standard"
             />
           </div>

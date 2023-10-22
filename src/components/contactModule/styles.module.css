@@ -40,6 +40,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .infoContainer {
@@ -50,4 +51,13 @@
 .inputContainer {
   display: flex;
   flex-direction: column;
+}
+
+.emailInput {
+  margin-right: 15px !important;
+}
+
+.selectInput {
+  margin: 15px 0px 25px !important;
+  width: 100% !important;
 }
