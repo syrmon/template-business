@@ -1,0 +1,214 @@
+.container {
+  overflow: hidden;
+}
+
+.firstSection {
+  margin-bottom: 40px;
+  padding: 30px 15px;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.imageSide {
+  margin-bottom: 25px;
+}
+
+.image {
+  width: 100%;
+  height: 245px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.contentSide > .title {
+  font-size: 23px;
+  color: var(--second-color);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.yellowLine {
+  width: 25px;
+  background-color: var(--second-color);
+  height: 3px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preDescription {
+  font-size: 18px;
+  font-weight: 600;
+  color: #525252;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contentSide > .description {
+  color: #929292;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.backgroundOverlay {
+  padding: 15px;
+  background-color: rgb(214, 232, 255);
+  border-radius: 15px;
+  border-left: 3px solid var(--second-color);
+  margin-bottom: 20px;
+}
+
+.backgroundOverlay > .description {
+  color: #727272;
+  font-size: 15px;
+  text-align: center;
+}
+
+.discoverBtn,
+.contactBtn {
+  border: 1.5px solid var(--second-color);
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--second-color);
+}
+
+.discoverBtn {
+  margin-bottom: 20px;
+}
+
+.imageCarousel {
+  display: flex;
+}
+
+.carouselItem {
+  margin-right: 15px;
+}
+
+.carouselImg {
+  width: 172.5px;
+  height: 125px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.secondSection {
+  background-color: rgb(253, 247, 215);
+  padding: 30px 15px;
+}
+
+.courseOffer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courseOfferContainer {
+  text-align: center;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: var(--third-color);
+  margin-bottom: 10px;
+}
+
+.infos {
+}
+
+.courseOfferContainer .title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.courseOfferContainer .details {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .contentSide {
+    flex: 1;
+    margin-right: 25px;
+  }
+  .imageSide {
+    flex: 1;
+    margin-left: 25px;
+  }
+  .yellowLine {
+    margin: 10px 0px;
+  }
+
+  .title {
+    text-align: start;
+  }
+
+  .preDescription {
+    text-align: start;
+  }
+
+  .contentSide > .description {
+    text-align: start;
+  }
+
+  .discoverBtn {
+    margin: 0px;
+  }
+
+  .discoverBtn,
+  .contactBtn {
+    padding: 10px 20px;
+  }
+
+  .contactButtons {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .image {
+    height: 480px;
+  }
+
+  .imageCarousel {
+    justify-content: center;
+  }
+
+  .courseOffer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon {
+    margin-right: 20px;
+    margin-bottom: 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .courseOfferContainer {
+    text-align: center;
+    width: auto;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .courseOfferContainer .title {
+    text-align: center;
+  }
+}
