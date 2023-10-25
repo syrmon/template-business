@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import logoImg from "../../assets/logoFooter.png";
+import logoImg from "../../assets/logo.png";
 
 import { MdLocationPin } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
